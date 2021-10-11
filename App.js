@@ -14,15 +14,15 @@ export default class App extends React.Component {
 }
 
 const TabNavigator = createBottomTabNavigator({
-  WriteStory: WriteStoryScreen,
-  ReadStory: ReadStoryScreen
+  EscribirHistoria: WriteStoryScreen,
+  LeerHistoria: ReadStoryScreen
 },
 {
   defaultNavigationOptions: ({navigation})=>({
     tabBarIcon: ()=>{
       const routeName = navigation.state.routeName;
       console.log(routeName)
-      if(routeName === "WriteStory"){
+      if(routeName === "EscribirHistoria"){
         return(
           <Image
           source={require("./assets/write.png")}
@@ -31,7 +31,7 @@ const TabNavigator = createBottomTabNavigator({
         )
         
       }
-      else if(routeName === "ReadStory"){
+      else if(routeName === "LeerHistoria"){
         return(
           <Image
           source={require("./assets/read.png")}
