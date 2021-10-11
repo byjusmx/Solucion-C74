@@ -36,7 +36,7 @@ export default class WriteStoryScreen extends React.Component {
                     backgroundColor = {'pink'}
                     centerComponent = {{
                         text : 'Historias para Dormir',
-                        style : { color: 'white', fontSize: 20}
+                        style : { color: 'white', fontSize: 15}
                     }}
                 />
                 <TextInput 
