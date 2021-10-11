@@ -2,7 +2,7 @@ import firebase from 'firebase'
 require("@firebase/firestore")
 
 
-// Initialize Firebase
+// Inicializa firebase
 var firebaseConfig = {
     apiKey: "AIzaSyAMW87I3aehUsTmQ-LXmNvxw8QZ1e0Xwto",
     authDomain: "bed-time-stories-805e9.firebaseapp.com",
@@ -15,7 +15,7 @@ var firebaseConfig = {
   };
 
 
-// Initialize Firebase
+// Inicializa Firebase
 firebase.initializeApp(firebaseConfig);
 
 export default  firebase.firestore()                                   
