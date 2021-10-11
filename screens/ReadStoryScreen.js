@@ -68,7 +68,7 @@ export default class ReadStoryScreen extends React.Component {
                 backgroundColor = {'pink'}
                 centerComponent = {{
                     text : 'Historias para Dormir',
-                    style : { color: 'white', fontSize: 20}
+                    style : { color: 'white', fontSize: 15}
                 }}
             />
           <View styles ={{height:20,width:'100%'}}>
